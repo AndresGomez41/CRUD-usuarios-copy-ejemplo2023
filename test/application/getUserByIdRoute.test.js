@@ -28,7 +28,7 @@ describe('Testing de la ruta de obtener un usuario por id', () => {
                     })
             })
     })
-    it('La respuesta debe tener ul mismo id que mandamos por parametro', (done) => {
+    it('La respuesta debe tener el mismo id que mandamos por parametro', (done) => {
         chai.request(app)
             .post('/users')
             .set("content-type", "application/json")
